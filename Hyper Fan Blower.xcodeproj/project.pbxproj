@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1808BE082AD1247E00E28778 /* sund5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1808BE032AD1247E00E28778 /* sund5.mp3 */; };
+		1808BE092AD1247E00E28778 /* sund1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1808BE042AD1247E00E28778 /* sund1.mp3 */; };
+		1808BE0A2AD1247E00E28778 /* sund2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1808BE052AD1247E00E28778 /* sund2.mp3 */; };
+		1808BE0F2AD1259F00E28778 /* sund3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1808BE0D2AD1259F00E28778 /* sund3.mp3 */; };
+		1808BE102AD1259F00E28778 /* sund4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1808BE0E2AD1259F00E28778 /* sund4.mp3 */; };
+		189403262ACC200A0084E8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189403252ACC200A0084E8F0 /* AppDelegate.swift */; };
+		1894032A2ACC200B0084E8F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189403292ACC200B0084E8F0 /* ViewController.swift */; };
+		1894032D2ACC200B0084E8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894032B2ACC200B0084E8F0 /* Main.storyboard */; };
+		1894032F2ACC20180084E8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894032E2ACC20180084E8F0 /* Assets.xcassets */; };
+		189403322ACC20180084E8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189403302ACC20180084E8F0 /* LaunchScreen.storyboard */; };
+		18BF52BE2AD2797200057D3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18BF52BD2AD2797200057D3B /* GoogleService-Info.plist */; };
+		18BF52C02AD27DD000057D3B /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF52BF2AD27DD000057D3B /* SplashViewController.swift */; };
+		18BF52C22AD2842D00057D3B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BF52C12AD2842C00057D3B /* AdSupport.framework */; };
+		18BF52C42AD2843600057D3B /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BF52C32AD2843500057D3B /* AdServices.framework */; };
+		18BF52C62AD2844000057D3B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BF52C52AD2843F00057D3B /* StoreKit.framework */; };
+		18BF52C82AD2844900057D3B /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BF52C72AD2844800057D3B /* AppTrackingTransparency.framework */; };
+		7B9814D68739888CD96DE281 /* Pods_Hyper_Fan_Blower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E91655638C5666CC76CCCF /* Pods_Hyper_Fan_Blower.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1808BE032AD1247E00E28778 /* sund5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sund5.mp3; sourceTree = "<group>"; };
+		1808BE042AD1247E00E28778 /* sund1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sund1.mp3; sourceTree = "<group>"; };
+		1808BE052AD1247E00E28778 /* sund2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sund2.mp3; sourceTree = "<group>"; };
+		1808BE0D2AD1259F00E28778 /* sund3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sund3.mp3; sourceTree = "<group>"; };
+		1808BE0E2AD1259F00E28778 /* sund4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sund4.mp3; sourceTree = "<group>"; };
+		189403222ACC200A0084E8F0 /* Hyper Fan Blower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyper Fan Blower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189403252ACC200A0084E8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189403292ACC200B0084E8F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1894032C2ACC200B0084E8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1894032E2ACC20180084E8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189403312ACC20180084E8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189403332ACC20180084E8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BF52BD2AD2797200057D3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18BF52BF2AD27DD000057D3B /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		18BF52C12AD2842C00057D3B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		18BF52C32AD2843500057D3B /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		18BF52C52AD2843F00057D3B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		18BF52C72AD2844800057D3B /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		18BF52C92AD2846E00057D3B /* Hyper Fan Blower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hyper Fan Blower.entitlements"; sourceTree = "<group>"; };
+		44E91655638C5666CC76CCCF /* Pods_Hyper_Fan_Blower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hyper_Fan_Blower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D285AD6A7F84D942EC79CB3 /* Pods-Hyper Fan Blower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper Fan Blower.release.xcconfig"; path = "Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower.release.xcconfig"; sourceTree = "<group>"; };
+		D0262936A333EF215A26CDE5 /* Pods-Hyper Fan Blower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyper Fan Blower.debug.xcconfig"; path = "Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1894031F2ACC200A0084E8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF52C82AD2844900057D3B /* AppTrackingTransparency.framework in Frameworks */,
+				7B9814D68739888CD96DE281 /* Pods_Hyper_Fan_Blower.framework in Frameworks */,
+				18BF52C22AD2842D00057D3B /* AdSupport.framework in Frameworks */,
+				18BF52C42AD2843600057D3B /* AdServices.framework in Frameworks */,
+				18BF52C62AD2844000057D3B /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1829D1862AD0816C001F0399 /* AudioFile */ = {
+			isa = PBXGroup;
+			children = (
+				1808BE042AD1247E00E28778 /* sund1.mp3 */,
+				1808BE052AD1247E00E28778 /* sund2.mp3 */,
+				1808BE0D2AD1259F00E28778 /* sund3.mp3 */,
+				1808BE0E2AD1259F00E28778 /* sund4.mp3 */,
+				1808BE032AD1247E00E28778 /* sund5.mp3 */,
+			);
+			path = AudioFile;
+			sourceTree = "<group>";
+		};
+		189403192ACC200A0084E8F0 = {
+			isa = PBXGroup;
+			children = (
+				189403242ACC200A0084E8F0 /* Hyper Fan Blower */,
+				189403232ACC200A0084E8F0 /* Products */,
+				775A53BDE6FD514E6136E4C7 /* Pods */,
+				5709711E0745EAAC0C0906B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189403232ACC200A0084E8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189403222ACC200A0084E8F0 /* Hyper Fan Blower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189403242ACC200A0084E8F0 /* Hyper Fan Blower */ = {
+			isa = PBXGroup;
+			children = (
+				18BF52C92AD2846E00057D3B /* Hyper Fan Blower.entitlements */,
+				189403252ACC200A0084E8F0 /* AppDelegate.swift */,
+				18BF52BF2AD27DD000057D3B /* SplashViewController.swift */,
+				189403292ACC200B0084E8F0 /* ViewController.swift */,
+				1829D1862AD0816C001F0399 /* AudioFile */,
+				1894032B2ACC200B0084E8F0 /* Main.storyboard */,
+				1894032E2ACC20180084E8F0 /* Assets.xcassets */,
+				189403302ACC20180084E8F0 /* LaunchScreen.storyboard */,
+				189403332ACC20180084E8F0 /* Info.plist */,
+				18BF52BD2AD2797200057D3B /* GoogleService-Info.plist */,
+			);
+			path = "Hyper Fan Blower";
+			sourceTree = "<group>";
+		};
+		5709711E0745EAAC0C0906B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BF52C72AD2844800057D3B /* AppTrackingTransparency.framework */,
+				18BF52C52AD2843F00057D3B /* StoreKit.framework */,
+				18BF52C32AD2843500057D3B /* AdServices.framework */,
+				18BF52C12AD2842C00057D3B /* AdSupport.framework */,
+				44E91655638C5666CC76CCCF /* Pods_Hyper_Fan_Blower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		775A53BDE6FD514E6136E4C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0262936A333EF215A26CDE5 /* Pods-Hyper Fan Blower.debug.xcconfig */,
+				7D285AD6A7F84D942EC79CB3 /* Pods-Hyper Fan Blower.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189403212ACC200A0084E8F0 /* Hyper Fan Blower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189403362ACC20180084E8F0 /* Build configuration list for PBXNativeTarget "Hyper Fan Blower" */;
+			buildPhases = (
+				52855EC55510D7E67831BEAC /* [CP] Check Pods Manifest.lock */,
+				1894031E2ACC200A0084E8F0 /* Sources */,
+				1894031F2ACC200A0084E8F0 /* Frameworks */,
+				189403202ACC200A0084E8F0 /* Resources */,
+				9B65038817898108431F78CC /* [CP] Embed Pods Frameworks */,
+				8FF054FBE3EF528E173352C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hyper Fan Blower";
+			productName = "Hyper Fan Blower";
+			productReference = 189403222ACC200A0084E8F0 /* Hyper Fan Blower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1894031A2ACC200A0084E8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					189403212ACC200A0084E8F0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1894031D2ACC200A0084E8F0 /* Build configuration list for PBXProject "Hyper Fan Blower" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189403192ACC200A0084E8F0;
+			productRefGroup = 189403232ACC200A0084E8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189403212ACC200A0084E8F0 /* Hyper Fan Blower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189403202ACC200A0084E8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189403322ACC20180084E8F0 /* LaunchScreen.storyboard in Resources */,
+				1808BE0F2AD1259F00E28778 /* sund3.mp3 in Resources */,
+				18BF52BE2AD2797200057D3B /* GoogleService-Info.plist in Resources */,
+				1808BE0A2AD1247E00E28778 /* sund2.mp3 in Resources */,
+				1808BE092AD1247E00E28778 /* sund1.mp3 in Resources */,
+				1894032F2ACC20180084E8F0 /* Assets.xcassets in Resources */,
+				1808BE102AD1259F00E28778 /* sund4.mp3 in Resources */,
+				1808BE082AD1247E00E28778 /* sund5.mp3 in Resources */,
+				1894032D2ACC200B0084E8F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52855EC55510D7E67831BEAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hyper Fan Blower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF054FBE3EF528E173352C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B65038817898108431F78CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hyper Fan Blower/Pods-Hyper Fan Blower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1894031E2ACC200A0084E8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF52C02AD27DD000057D3B /* SplashViewController.swift in Sources */,
+				1894032A2ACC200B0084E8F0 /* ViewController.swift in Sources */,
+				189403262ACC200A0084E8F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1894032B2ACC200B0084E8F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1894032C2ACC200B0084E8F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189403302ACC20180084E8F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189403312ACC20180084E8F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189403342ACC20180084E8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189403352ACC20180084E8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189403372ACC20180084E8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0262936A333EF215A26CDE5 /* Pods-Hyper Fan Blower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hyper Fan Blower/Hyper Fan Blower.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q4WBQ56PM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hyper Fan Blower/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Blow Fan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We collect user data to enhance your experience, providing personalized content and recommendations.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blow.blowfan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		189403382ACC20180084E8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D285AD6A7F84D942EC79CB3 /* Pods-Hyper Fan Blower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Hyper Fan Blower/Hyper Fan Blower.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q4WBQ56PM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hyper Fan Blower/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Blow Fan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We collect user data to enhance your experience, providing personalized content and recommendations.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blow.blowfan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1894031D2ACC200A0084E8F0 /* Build configuration list for PBXProject "Hyper Fan Blower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189403342ACC20180084E8F0 /* Debug */,
+				189403352ACC20180084E8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189403362ACC20180084E8F0 /* Build configuration list for PBXNativeTarget "Hyper Fan Blower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189403372ACC20180084E8F0 /* Debug */,
+				189403382ACC20180084E8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1894031A2ACC200A0084E8F0 /* Project object */;
+}
